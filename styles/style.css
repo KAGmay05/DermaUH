@@ -1,0 +1,184 @@
+.html,
+body {
+    background-color: white;
+    width: 100%;
+    height: 5000px;
+    margin: 0;
+    padding: 0;
+}
+
+.barra {
+    position: fixed;
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 65px;
+    top:0px;
+}
+
+.logo {
+    height: 85%;
+    width: auto;
+    object-fit: contain;
+    position: relative;
+    top: 4px;
+    left: 56px;
+}
+
+.corazon {
+    height: 88%;
+    width: auto;
+    object-fit: contain;
+    position: relative;
+    left: -250px;
+    top: 4px
+}
+
+.buttonmenu {
+    height: 4%;
+    width: auto;
+    object-fit: contain;
+    position: fixed;
+    left: 1450px;
+    top: 18px;
+    transition: all 0.3s ease;
+}
+
+.buttonhome {
+    height: 5%;
+    width: auto;
+    object-fit: contain;
+    position: fixed;
+    left: 1390px;
+    top: 12px;
+    transition: all 0.3s ease;
+}
+
+.buttonmenu:hover {
+    height: 5%;
+    width: auto;
+}
+
+.buttonhome:hover {
+    height: 6%;
+    width: auto;
+}
+
+#menu {
+    background-color: white;
+    border-radius: 35px 0 35px 0;
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    width: 205px;
+    height: 100px;
+    position: absolute;
+    top: 70px;
+    left: 1310px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+#menu.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.cont {
+    font-size: 20px;
+    color: #851f78;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    top:20px;
+    left: 16px;
+    font-family: "Jomolhari", serif;
+}
+.dist {
+    font-size: 20px;
+    color: #851f78;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    top:55px;
+    left: 13px;
+    font-family: "Jomolhari", serif;
+    border-top: 2px solid #851f78; 
+    padding: 8px;
+}
+.cont:hover{
+    color: #ca3a8f
+}
+
+.dist:hover{
+    color: #ca3a8f
+    
+}
+.fondo{
+    position: relative;
+}
+.background{
+    height: auto;
+    width: 100%;
+    display: block;
+}
+.sitio{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    font-family: "Jomolhari", serif;
+    color: white;
+    line-height: 1.3;
+    font-size: 80px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.somos{
+    position: absolute;
+    font-family: "jomolhari", serif;
+    font-size: 20px;
+    width: 200px;
+    height: 70px;
+    top: 570px;
+    left: 55px;
+    border-radius: 30px 0px 30px 30px;
+    background-color: transparent;
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+}
+.hacemos{
+    position: absolute;
+    font-family: "jomolhari", serif;
+    font-size: 20px;
+    width: 200px;
+    height: 70px;
+    top: 570px;
+    left: 270px;
+    border-radius: 30px 30px 30px 0px;
+    background-color: transparent;
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+}
+.hacemos:hover,
+.somos:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.final{
+    background-color: white;
+    border-width: 90px;
+    border-top: solid 3px;
+    border-color: #ca3a8f;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 5000px ;
+    text-align: center;
+}
+.pie{
+    width: auto;
+    height: 100%;
+   
+}

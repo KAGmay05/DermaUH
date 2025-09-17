@@ -29,6 +29,72 @@
     <div class="final">
         <img src="images/fin.png" alt="Pie de pagina" class="pie">
     </div>
-    <script src="scripts/buttons.js"></script>
+    
+    <div class=" servicios">
+        <h2 class = "tituloservicios">Nuestros Servicios</h2>
+
+        <div class ="carrusel">
+           
+            
+            <div class="slides">
+                <div class="slide">
+                    <img src="images/servicios1.png" alt="Servicio 1">
+                    <h3 class ="slide-title">Servicio de pacientes</h3>
+                    <p class = "slide-desc">Registro unificado de pacientes, datos, imágenes de cada consulta.</p>
+                </div>
+                <div class="slide">
+                    <img src="images/servicios2.png" alt="Servicio 2">
+                    <h3 class ="slide-title">Diagnóstico automático</h3>
+                    <p class = "slide-desc">Diagnóstico automático e instantáneo mediante el uso de IA.</p>
+                </div>
+                <div class="slide">
+                    <img src="images/servicios3.png" alt="Servicio 3">
+                    <h3 class ="slide-title">Procesamiento de la imagen</h3>
+                    <p class = "slide-desc">Métodos para el mejoramiento del contraste y de la segmentación.</p>
+                </div>
+                <div class="slide">
+                    <img src="images/servicios4.png" alt="Servicio 4">
+                    <h3 class ="slide-title">Colaboración médica</h3>
+                    <p class = "slide-desc">Compartir acceso a determinados pacientes.</p>
+                </div>
+                <div class="slide">
+                    <img src="images/servicios5.png" alt="Servicio 5">
+                    <h3 class ="slide-title">App multiplataforma</h3>
+                    <p class = "slide-desc">Acceso a internet desde cualquier dispositivo.</p>
+                </div>    
+            </div>
+            <button class="prev" onclick="moverSlide(-1)">
+                <img src="images/left.png" alt="anterior">    
+            </button>
+
+            <button class="next" onclick="moverSlide(1)">
+               <img src ="images/right.png" alt="siguiente">
+            </button>
+        </div>      
+    </div>
+    <div class = "info">
+        <img src = "images/doctor.png" alt = "doctor" class = "doctor">
+        <h4 class="textoDoctor">¿Para quién es DermaUH?</h4>
+
+        <div class = "cortina" id="cortina">
+            <div class="cortina-contenido">
+                <p>
+                    -Especialistas en dermatología<br>
+                    -Residentes médicos en entrenamiento<br>
+                    -Investigadores<br>
+                    Esta versátil plataforma puede ayudar a los<br>
+                    dermatólogos en sus responsabilidades diarias<br>
+                    en cualquier centro médico.
+                </p>    
+                <button class="arrowRight" id="arrowRight">
+                    <img src="images/whiteRight.png" alt="right">
+                </button>
+            </div>
+            <button class = "arrowLeft" id="arrowLeft">
+                <img src="images/whiteLeft.png" alt="left">
+            </button>    
+        </div>
+    </div>        
+    <script src="scripts/buttons.js"></script>      
 </body>
 </html>

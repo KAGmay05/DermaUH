@@ -13,7 +13,7 @@ body {
     width: 100%;
     height: 300px;
     position: relative;
-    top: -1500px ;
+    top: -3890px ;
     text-align: center;
 }
 .pie2{
@@ -218,35 +218,119 @@ body {
 
 #do{
     position: relative;
-    top: -1780px;
-    left: -280px;
+    top: -2170px;
+    left: 20px;
 }
 
 #tre{
    position: relative;
-    top: -2040px;
-    left: 170px; 
+    top: -2300px;
+    left: 20px; 
 }
 
 #cuatr{
     position: relative;
-    top: -1530px;
-    left: -890px;
+    top: -2390px;
+    left: 20px;
 }
 
 #cinc{
     position: relative;
-    top: -1530px;
-    left: -430px;
+    top: -3865px;
+    left: 785px;
 }
 
 #sei{
    position: relative;
-    top: -2020px;
-    left: 780px; 
+    top: -4035px;
+    left: 785px; 
 }
 #siet{
    position: relative;
-    top: -1520px;
-    left: -280px; 
+    top: -4120px;
+    left: 785px; 
+}
+.medico_1{
+    font-family: "Jomolhari", serif;
+    font-size: 24px;    
+    padding: 20px;                 
+    width: 300px;                  
+    text-align: center; 
+    position: relative;
+    top: -2270px;
+    left: 315px;
+    line-height: 38px; 
+    color: #851f78;
+}
+.medico_2{
+    font-family: "Jomolhari", serif;
+    font-size: 24px;    
+    padding: 20px;                 
+    width: 300px;                  
+    text-align: center; 
+    position: relative;
+    top: -2420px;
+    left: 315px;
+    line-height: 38px; 
+    color: #851f78;
+}
+.medico_3{
+    font-family: "Jomolhari", serif;
+    font-size: 24px;    
+    padding: 20px;                 
+    width: 300px;                  
+    text-align: center; 
+    position: relative;
+    top: -2540px;
+    left: 315px;
+    line-height: 38px; 
+    color: #851f78;
+}
+.medico_4{
+    font-family: "Jomolhari", serif;
+    font-size: 24px;    
+    padding: 20px;                 
+    width: 300px;                  
+    text-align: center; 
+    position: relative;
+    top: -2650px;
+    left: 315px;
+    line-height: 38px; 
+    color: #851f78;
+}
+.medico_5{
+    font-family: "Jomolhari", serif;
+    font-size: 24px;    
+    padding: 20px;                 
+    width: 300px;                  
+    text-align: center; 
+    position: relative;
+    top: -4104px;
+    left: 1078px;
+    line-height: 38px; 
+    color: #851f78;
+}
+.medico_6{
+    font-family: "Jomolhari", serif;
+    font-size: 24px;    
+    padding: 20px;                 
+    width: 300px;                  
+    text-align: center; 
+    position: relative;
+    top: -4280px;
+    left: 1078px;
+    line-height: 38px; 
+    color: #851f78;
+}
+.medico_7{
+    font-family: "Jomolhari", serif;
+    font-size: 24px;    
+    padding: 20px;                 
+    width: 300px;                  
+    text-align: center; 
+    position: relative;
+    top: -4350px;
+    left: 1078px;
+    line-height: 38px; 
+    color: #851f78;
 }

@@ -52,14 +52,11 @@ function moverSlide(direccion) {
 //cortina
 const cortina = document.getElementById("cortina");
 const arrowLeft = document.getElementById("arrowLeft");
-const arrowRight = document.getElementById("arrowRight");
 
-//abrir cortina
 arrowLeft.addEventListener('click', () => {
-     cortina.classList.add("cortina-activa");
-});
-
-//cerrar cortina
-arrowRight.addEventListener('click', () => {
+     if(cortina.classList.contains("cortina-activa"))
      cortina.classList.remove("cortina-activa");
+
+     else
+     cortina.classList.add("cortina-activa");
 });

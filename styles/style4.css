@@ -2,7 +2,7 @@
 body {
     background-color: white;
     width: 100%;
-    height: 1500px;
+    height: 800px;
     margin: 0;
     padding: 0;
 }
@@ -17,7 +17,7 @@ body {
 }
 .world{
     width: auto;
-    height: 2.6%;
+    height: 5.6%;
     position: relative;
     top: 35px;
     left: 100px;
@@ -44,9 +44,9 @@ body {
 }
 .correo{
     width: auto;
-    height: 2.7%;
+    height: 5.7%;
     position: relative;
-    top: -102px;
+    top: -125px;
     left: 700px;  
 }
 .cor{
@@ -54,7 +54,7 @@ body {
     font-size: 30px;
     color: #851f78;
     position: relative;
-    top:-130px;
+    top:-160px;
     left: 810px;
     
     width: 300px;
@@ -65,15 +65,15 @@ body {
     color: #851f78;
     position: relative;
     left:812px;
-    top:-150px;
+    top:-180px;
     
     width: 200px;
 }
 .telefono{
     width: auto;
-    height: 2.3%;
+    height: 5.3%;
     position: relative;
-    top: -102px;
+    top: -152px;
     left: 103px;
 }
 
@@ -82,7 +82,7 @@ body {
     font-size: 30px;
     color: #851f78;
     position: relative;
-    top:-120px;
+    top:-170px;
     left: 100px;
     width: 200px;
 }
@@ -92,14 +92,14 @@ body {
     color: #851f78;
     position: relative;
     left:100px;
-    top:-140px;
+    top:-200px;
     width: 200px;
 }
 .location{
     width: auto;
-    height: 2.7%;
+    height: 5.7%;
     position: relative;
-    top: -280px;
+    top: -368px;
     left: 805px;
     
 }
@@ -109,7 +109,7 @@ body {
     font-size: 30px;
     color: #851f78;
     position: relative;
-    top:-301px;
+    top:-393px;
     left: 810px;
     width: 200px;
     
@@ -120,26 +120,28 @@ body {
     color: #851f78;
     position: relative;
     left:812px;
-    top:-322px;
+    top:-418px;
     width: 450px;
     
 }
 
 .mapa{
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 105.5%;
     position: relative;
     left: 0px;
-    top: -260px;
+    top: -360px;
+    border-bottom: solid 3px;
+    border-color: #ca3a8f;
 }
 .final3{
     background-color: white;
     border-top: solid 3px;
     border-color: #ca3a8f;
     width: 100%;
-    height: 300px;
+    height: 36%;
     position: relative;
-    top: -270px ;
+    top: -320px ;
     text-align: center;
 }
 .pie3{

@@ -13,7 +13,7 @@ body {
     width: 100%;
     height: 300px;
     position: relative;
-    top: -500px ;
+    top: -1500px ;
     text-align: center;
 }
 .pie2{
@@ -35,7 +35,7 @@ body {
     width: 600px;                  
     text-align: justify;     
     position: relative;
-    top: -620px;
+    top: -660px;
     left:820px;   
     line-height: 38px; 
     color: #851f78;
@@ -47,25 +47,25 @@ body {
     width: 600px;                  
     text-align: justify;     
     position: relative;
-    top: -720px;
+    top: -800px;
     left:820px;   
     line-height: 38px; 
     color: #851f78;
 }
 .titulo{
     position: relative;
-    top: -540px;
-    left: 910px;
+    top: -570px;
+    left: 880px;
     font-family: "Jomolhari", serif;
     font-size: 64px;
     color: #851f78;
-    width: 500px;
+    width: 600px;
     
 }
 .titulo2{
     position: relative;
-    top: -640px;
-    left: 920px;
+    top: -710px;
+    left: 890px;
     font-family: "Jomolhari", serif;
     font-size: 64px;
     color: #851f78;
@@ -74,12 +74,12 @@ body {
 }
 .titulo3{
     position: relative;
-    top: -768px;
+    top: -798px;
     left: 70px;
     font-family: "Jomolhari", serif;
     font-size: 64px;
     color: #851f78;
-    width: 1000px;
+    width: 1200px;
 }
 .marta{
     width: auto;
@@ -203,4 +203,50 @@ body {
     font-size: 64px;
     color: #851f78;
     width: 700px;
+}
+
+.medico{
+    width: auto;
+    height: 12%;
+}
+
+#un{
+    position: relative;
+    top: -2040px;
+    left: 20px;
+}
+
+#do{
+    position: relative;
+    top: -1780px;
+    left: -280px;
+}
+
+#tre{
+   position: relative;
+    top: -2040px;
+    left: 170px; 
+}
+
+#cuatr{
+    position: relative;
+    top: -1530px;
+    left: -890px;
+}
+
+#cinc{
+    position: relative;
+    top: -1530px;
+    left: -430px;
+}
+
+#sei{
+   position: relative;
+    top: -2020px;
+    left: 780px; 
+}
+#siet{
+   position: relative;
+    top: -1520px;
+    left: -280px; 
 }

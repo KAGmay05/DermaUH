@@ -131,13 +131,13 @@ body {
     position: relative;
     left: 0px;
     top: -360px;
-    border-bottom: solid 3px;
-    border-color: #ca3a8f;
+    /* border-bottom: solid 3px;
+    border-color: #ca3a8f; */
 }
 .final3{
     background-color: white;
-    border-top: solid 3px;
-    border-color: #ca3a8f;
+    /* border-top: solid 3px;
+    border-color: #ca3a8f; */
     width: 100%;
     height: 36%;
     position: relative;

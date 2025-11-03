@@ -34,14 +34,24 @@ function Dist(){
 let indice = 0;
 const slides = document.querySelectorAll('.slide');
 const slidesPerView = 3;
+
+// Los índices donde comienza cada grupo de slides
+// Por ejemplo, si tienes 5 imágenes y muestras 3 por vez: [0, 2]
 const groupIndices = [0, 2];
 const totalGroups = groupIndices.length;
 
 function moverSlide(direccion) {
-    indice += direccion;
-
-    if (indice < 0) indice = totalGroups - 1;
-    if (indice >= totalGroups) indice = 0;
+    if (direccion > 0) {
+        // Avanzar (solo si no estamos en el último grupo)
+        if (indice < totalGroups - 1) {
+            indice++;
+        }
+    } else if (direccion < 0) {
+        // Retroceder (solo si no estamos ya en el inicio)
+        if (indice > 0) {
+            indice--;
+        }
+    }
 
     const startIndex = groupIndices[indice];
     const desplazamiento = -(startIndex / slidesPerView) * 100;

@@ -2,7 +2,7 @@
 body {
     background-color: white;
     width: 100%;
-    height: 2000px;
+    height: 50px;
     margin: 0;
     padding: 0;
 }
@@ -12,8 +12,8 @@ body {
     border-color: #ca3a8f;
     width: 100%;
     height: 300px;
-    position: relative;
-    top: -3890px ;
+    position: absolute;
+    top: 3150px ;
     text-align: center;
 }
 .pie2{
@@ -22,9 +22,9 @@ body {
 }
 
 .compu{
-    position: relative;
+    position: absolute;
     width: auto;
-    height: 30%;
+    height: 75%;
     top: 100px;
     left: 60px;
 }
@@ -34,8 +34,8 @@ body {
     padding: 20px;                 
     width: 600px;                  
     text-align: justify;     
-    position: relative;
-    top: -660px;
+    position: absolute;
+    top: 160px;
     left:820px;   
     line-height: 38px; 
     color: #851f78;
@@ -46,15 +46,15 @@ body {
     padding: 20px;                 
     width: 600px;                  
     text-align: justify;     
-    position: relative;
-    top: -800px;
+    position: absolute;
+    top: 420px;
     left:820px;   
     line-height: 38px; 
     color: #851f78;
 }
 .titulo{
-    position: relative;
-    top: -570px;
+    position: absolute;
+    top: 30px;
     left: 880px;
     font-family: "Jomolhari", serif;
     font-size: 64px;
@@ -63,8 +63,8 @@ body {
     
 }
 .titulo2{
-    position: relative;
-    top: -710px;
+    position: absolute;
+    top: 290px;
     left: 890px;
     font-family: "Jomolhari", serif;
     font-size: 64px;
@@ -73,8 +73,8 @@ body {
     
 }
 .titulo3{
-    position: relative;
-    top: -798px;
+    position: absolute;
+    top: 770px;
     left: 70px;
     font-family: "Jomolhari", serif;
     font-size: 64px;
@@ -83,44 +83,44 @@ body {
 }
 .marta{
     width: auto;
-    height: 8%;
-    position: relative;
-    top: -800px;
-    left: 80px;
+    height: 22%;
+    position: absolute;
+    top: 1000px;
+    left: 100px;
 }
 .claudia{
     width: auto;
-    height: 8%;
-    position: relative;
-    top: -900px;
-    left: 80px;
+    height: 22%;
+    position: absolute;
+    top: 1275px;
+    left: 100px;
 }
 .marcos{
     width: auto;
-    height: 8%;
-    position: relative;
-    top: -1000px;
-    left: 80px;
+    height: 22%;
+    position: absolute;
+    top: 1550px;
+    left: 100px;
 }
 .manuel{
     width: auto;
-    height: 8%;
-    position: relative;
-    top: -1780px;
+    height: 22%;
+    position: absolute;
+    top: 1000px;
     left: 860px;
 }
 .amanda{
     width: auto;
-    height: 8%;
-    position: relative;
-    top: -1846px;
+    height: 22%;
+    position: absolute;
+    top: 1275px;
     left: 860px;
 }
 .daniel{
     width: auto;
-    height: 8%;
-    position: relative;
-    top: -1907px;
+    height: 22%;
+    position: absolute;
+    top: 1550px;
     left: 860px;
 }
 .martaT{
@@ -129,8 +129,8 @@ body {
     padding: 20px;                 
     width: 300px;                  
     text-align: center; 
-    position: relative;
-    top: -960px;
+    position: absolute;
+    top: 1010px;
     left: 310px;
     line-height: 38px; 
     color: #851f78;
@@ -141,8 +141,8 @@ body {
     padding: 20px;                 
     width: 300px;                  
     text-align: center; 
-    position: relative;
-    top: -1060px;
+    position: absolute;
+    top: 1285px;
     left: 300px;
     line-height: 38px; 
     color: #851f78;
@@ -153,8 +153,8 @@ body {
     padding: 20px;                 
     width: 300px;                  
     text-align: center; 
-    position: relative;
-    top: -1160px;
+    position: absolute;
+    top: 1560px;
     left: 300px;
     line-height: 38px; 
     color: #851f78;
@@ -165,8 +165,8 @@ body {
     padding: 20px;                 
     width: 300px;                  
     text-align: center; 
-    position: relative;
-    top: -1930px;
+    position: absolute;
+    top: 1010px;
     left: 1090px;
     line-height: 38px; 
     color: #851f78;
@@ -177,8 +177,8 @@ body {
     padding: 20px;                 
     width: 300px;                  
     text-align: center; 
-    position: relative;
-    top: -1960px;
+    position: absolute;
+    top: 1285px;
     left: 1060px;
     line-height: 38px; 
     color: #851f78;
@@ -189,15 +189,15 @@ body {
     padding: 20px;                 
     width: 300px;                  
     text-align: center; 
-    position: relative;
-    top: -2050px;
+    position: absolute;
+    top: 1560px;
     left: 1050px;
     line-height: 38px; 
     color: #851f78;
 }
 .titulo4{
-    position: relative;
-    top: -2000px;
+    position: absolute;
+    top: 1740px;
     left: 70px;
     font-family: "Jomolhari", serif;
     font-size: 64px;
@@ -207,47 +207,47 @@ body {
 
 .medico{
     width: auto;
-    height: 12%;
+    height: 32%;
 }
 
 #un{
-    position: relative;
-    top: -2040px;
-    left: 20px;
+    position: absolute;
+    top: 1950px;
+    left: 40px;
 }
 
 #do{
-    position: relative;
-    top: -2170px;
-    left: 20px;
+    position: absolute;
+    top: 2250px;
+    left: 40px;
 }
 
 #tre{
-   position: relative;
-    top: -2300px;
-    left: 20px; 
+   position: absolute;
+    top: 2550px;
+    left: 40px; 
 }
 
 #cuatr{
-    position: relative;
-    top: -2390px;
-    left: 20px;
+    position: absolute;
+    top: 2850px;
+    left: 40px;
 }
 
 #cinc{
-    position: relative;
-    top: -3865px;
+    position: absolute;
+    top: 1950px;
     left: 785px;
 }
 
 #sei{
-   position: relative;
-    top: -4035px;
+   position: absolute;
+    top: 2250px;
     left: 785px; 
 }
 #siet{
-   position: relative;
-    top: -4120px;
+   position: absolute;
+    top: 2550px;
     left: 785px; 
 }
 .medico_1{
@@ -256,8 +256,8 @@ body {
     padding: 20px;                 
     width: 300px;                  
     text-align: center; 
-    position: relative;
-    top: -2270px;
+    position: absolute;
+    top: 1960px;
     left: 315px;
     line-height: 38px; 
     color: #851f78;
@@ -268,8 +268,8 @@ body {
     padding: 20px;                 
     width: 300px;                  
     text-align: center; 
-    position: relative;
-    top: -2420px;
+    position: absolute;
+    top: 2235px;
     left: 315px;
     line-height: 38px; 
     color: #851f78;
@@ -280,8 +280,8 @@ body {
     padding: 20px;                 
     width: 300px;                  
     text-align: center; 
-    position: relative;
-    top: -2540px;
+    position: absolute;
+    top: 2550px;
     left: 315px;
     line-height: 38px; 
     color: #851f78;
@@ -292,8 +292,8 @@ body {
     padding: 20px;                 
     width: 300px;                  
     text-align: center; 
-    position: relative;
-    top: -2650px;
+    position: absolute;
+    top: 2850px;
     left: 315px;
     line-height: 38px; 
     color: #851f78;
@@ -304,8 +304,8 @@ body {
     padding: 20px;                 
     width: 300px;                  
     text-align: center; 
-    position: relative;
-    top: -4104px;
+    position: absolute;
+    top: 1940px;
     left: 1078px;
     line-height: 38px; 
     color: #851f78;
@@ -316,8 +316,8 @@ body {
     padding: 20px;                 
     width: 300px;                  
     text-align: center; 
-    position: relative;
-    top: -4280px;
+    position: absolute;
+    top: 2260px;
     left: 1078px;
     line-height: 38px; 
     color: #851f78;
@@ -328,8 +328,8 @@ body {
     padding: 20px;                 
     width: 300px;                  
     text-align: center; 
-    position: relative;
-    top: -4350px;
+    position: absolute;
+    top: 2575px;
     left: 1078px;
     line-height: 38px; 
     color: #851f78;

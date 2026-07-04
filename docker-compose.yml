@@ -1,0 +1,20 @@
+services:
+  dermauh-app:
+    build: .
+    volumes:
+      - ./:/usr/share/nginx/html
+    environment:
+      - TZ=America/Havana
+    restart: unless-stopped
+    container_name: dermauh-app
+
+  dermauh-proxy:
+    image: nginx:alpine
+    depends_on:
+      - dermauh-app
+    ports:
+      - "80:80"
+    volumes:
+      - ./proxy.conf:/etc/nginx/nginx.conf:ro
+    restart: unless-stopped
+    container_name: dermauh-proxy

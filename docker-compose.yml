@@ -1,8 +1,6 @@
 services:
   dermauh-app:
     build: .
-    volumes:
-      - ./:/usr/share/nginx/html
     environment:
       - TZ=America/Havana
     restart: unless-stopped
